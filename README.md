@@ -1,3 +1,23 @@
+## CHANGES I IMPLEMENTED
+
+1. Inlined CSS code in all .html files
+2. Compressed images that proved troublesome
+3. Set all .js files to be async
+4. Added <meta name=viewport content="width=defice-width, initial-scale=1"> to pizza.html
+5. Modified changePizzaSizes in main.js
+6. Decreased the number of pizzas that appear in the background
+7. Inlined main.js
+8. Set font size to be larger with smaller screens to avoid font being too small on mobile devices
+9. Trimmed out much of the unneeded CSS in pizza.html
+(I believe that covers all of my edits)
+
+## To run the application, do any of the following:
+Run index.html in your web browser.
+Run a server via the directory index.html is stored in (In bash: python -m SimpleHTTPServer 8080)
+Navigate to http://viracerbus.github.io/frontend-nanodegree-mobile-portfolio/ (or fork the repository and create your own Github page)
+
+
+
 ## Website Performance Optimization portfolio project
 
 Your challenge, if you wish to accept it (and we sure hope you will), is to optimize this online portfolio for speed! In particular, optimize the critical rendering path and make this page render as quickly as possible by applying the techniques you've picked up in the [Critical Rendering Path course](https://www.udacity.com/course/ud884).
